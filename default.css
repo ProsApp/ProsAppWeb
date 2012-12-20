@@ -1,0 +1,301 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #1A1A1A url(images/bg01.jpg) repeat-x left top;
+	text-align: justify;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #818181;
+}
+
+h1, h2, h3 {
+	margin-top: 0px;
+}
+
+p, ol, ul {
+	line-height: 220%;
+	margin-top: 0px;
+}
+
+ol, ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+strong {
+	color: #636363;
+}
+
+a {
+	color: #1966B8;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+	padding: 6px 25px 0px 0px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+.link1 {
+	padding: 0px 0px 10px 25px;
+	background: url(images/homepage04.gif) no-repeat left 0px;
+}
+
+/** WRAPPER */
+
+#wrapper {
+}
+
+.container {
+	width: 900px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/** HEADER */
+
+#header {
+	height: 225px;/**312*/
+	background: url(images/bg02.jpg) no-repeat right top;
+}
+
+/** MENU */
+
+#menu {
+	float: left;
+	height: 122px;
+	padding-top: 103px;/**190*/
+}
+
+#menu ul {
+	width: 545px;
+	padding: 0px 0px 0px 55px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 87px;
+	height: 24px;
+	margin: 0px 0px 0px 0px;
+	padding: 8px 0px 0px 0px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	color: #868686;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+#menu .active a {
+	background: url(images/homepage02.jpg) no-repeat  left top;
+	color: #FFFFFF;
+}
+
+/** PAGE */
+
+#page {
+	background: url(images/bg05.jpg) repeat-y left top;
+}
+
+#page-bgtop {
+	background: url(images/bg03.jpg) no-repeat left top;
+}
+
+#page-bgbtm {
+	padding: 50px 50px 10px 50px;
+	background: url(images/bg04.jpg) no-repeat left bottom;
+}
+
+.single #page {
+	background: url(images/subpage2_02.jpg) repeat-y left top;
+}
+
+.single #page-bgtop {
+	background: url(images/subpage2_01.jpg) no-repeat left top;
+}
+
+.single #page-bgbtm {
+	padding: 50px 50px 10px 50px;
+	background: url(images/subpage2_03.jpg) no-repeat left bottom;
+}
+
+/** CONTENT */
+
+#content {
+	float: left;
+	width: 500px;
+}
+
+.single #content {
+	width: 800px;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+	float: right;
+	width: 250px;
+}
+
+/** FOOTER */
+
+#footer-wrapper {
+	width: 800px;
+	height: 200px;
+	padding: 0px 50px;
+	background: url(images/bg06.jpg) no-repeat left top;
+}
+
+
+
+#footer {
+	height: 100px;
+	background: url(images/bg07.jpg) no-repeat left top;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 40px 0px 0px 0px;
+	text-align: center;
+	color: #303030;
+}
+
+#footer .legal {
+}
+
+#footer .links {
+}
+
+#banner {
+	margin: 20px 0px 0px 0px;
+}
+
+.box-style .title {
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	color: #4B4B4B;
+}
+
+.box-style span {
+	font-weight: bold;
+}
+
+.box-style .meta {
+	margin-top: -16px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	color: #B1B1B1;
+}
+
+
+.box-style .entry {
+	padding: 0px 0px 20px 0px;
+}
+
+.two-columns {
+	padding-top: 40px;
+}
+
+.two-columns .title {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: normal;
+	color: #B4B4B4;
+}
+
+.two-columns span {
+	font-weight: bold;
+	color: #B4B4B4;
+}
+
+.two-columns a {
+	color: #AEAEAE;
+}
+
+.column1 {
+	float: left;
+	width: 500px;
+}
+
+.column2 {
+	float: right;
+	width: 250px;
+}
+
+.column2 p {
+	margin: 0px;
+	line-height: 260%;
+}
+
+.column2 .address {
+	padding: 0px 0px 0px 20px;
+	background: url(images/homepage06.gif) no-repeat 0px 10px;
+}
+
+.column2 .phone {
+	padding: 0px 0px 0px 20px;
+	background: url(images/homepage07.gif) no-repeat 0px 7px;
+}
+
+.column2 .email {
+	padding: 0px 0px 0px 20px;
+	background: url(images/homepage08.gif) no-repeat 0px 10px;
+}
+
+#box2 .title {
+	font-size: 18px;
+}
+
+#box3 .title {
+	font-size: 18px;
+}
+
+#box4 .title {
+	font-size: 18px;
+}
+
